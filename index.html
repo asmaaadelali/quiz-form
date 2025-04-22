@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>نموذج اختبار</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>اختبار قصير</h2>
+    <div id="timer">02:00</div>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. ما عاصمة مصر؟</p>
+        <label><input type="radio" name="q1" value="القاهرة" /> القاهرة</label><br />
+        <label><input type="radio" name="q1" value="الإسكندرية" /> الإسكندرية</label><br />
+        <label><input type="radio" name="q1" value="أسوان" /> أسوان</label>
+      </div>
+
+      <div class="question">
+        <p>2. ما هو لون السماء؟</p>
+        <label><input type="radio" name="q2" value="أزرق" /> أزرق</label><br />
+        <label><input type="radio" name="q2" value="أخضر" /> أخضر</label><br />
+        <label><input type="radio" name="q2" value="أحمر" /> أحمر</label>
+      </div>
+
+      <div class="question">
+        <p>3. كم عدد أيام الأسبوع؟</p>
+        <label><input type="radio" name="q3" value="7" /> 7</label><br />
+        <label><input type="radio" name="q3" value="5" /> 5</label><br />
+        <label><input type="radio" name="q3" value="10" /> 10</label>
+      </div>
+
+      <button type="submit">إرسال</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
